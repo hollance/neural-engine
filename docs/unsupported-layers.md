@@ -4,7 +4,7 @@ The main reason why Core ML will not run a model on the ANE is because the model
 
 It is possible that Core ML runs the first part of your model on the ANE, and then switches to GPU (or CPU) to run the rest of the model. In theory it could make several of these switches, but every switch between devices involves overhead.
 
-If your model is `S -> U -> S -> U -> S -> U` where S is a supported layer and U an unsupported layer, Core ML will probably do `ANE -> GPU` just once instead of `ANE -> GPU -> ANE -> GPU -> etc`.
+If your model is `S → U → S → U → S → U` where S is a supported layer and U an unsupported layer, Core ML will probably do `ANE → GPU` just once instead of `ANE → GPU → ANE → GPU → etc`.
 
 However, Core ML is mostly a black box. We have no insight into how Core ML makes the decision to run which part of the model on which processor. The only way to find out is to [set some breakpoints](is-model-using-ane.md) and try it out.
 
