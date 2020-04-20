@@ -4,7 +4,7 @@ The main reason why Core ML will not run a model on the ANE is because the model
 
 It is possible that Core ML runs the first part of your model on the ANE, and then switches to GPU (or CPU) to run the rest of the model. In theory it could make several of these switches, but every switch between devices involves overhead.
 
-If your model is `S → U → S → U → S → U` where S is a supported layer and U an unsupported layer, Core ML will probably do `ANE → GPU` just once instead of `ANE → GPU → ANE → GPU → etc`.
+If your model is `S → U → S → U → S → U` where S is a supported layer and U an unsupported layer, Core ML will probably do `ANE → GPU` just once instead of `ANE → GPU → ANE → GPU → etc`. (Although `ANE → CPU → ANE → CPU → etc` does seem to happen...)
 
 However, Core ML is mostly a black box. We have no insight into how Core ML makes the decision to run which part of the model on which processor. The only way to find out is to [set some breakpoints](is-model-using-ane.md) and try it out.
 
@@ -15,10 +15,12 @@ However, Core ML is mostly a black box. We have no insight into how Core ML make
 This list is by no means exhaustive, but the following layer types are known to not work on the ANE:
 
 - RNN layers such as LSTM or GRU
+- gather
 - dilated convolutions
-- upsampling layers
 - broadcastable and "ND" layers
 - custom layers
+
+> **Note:** Some of these are guesses. It's hard to tell what Core ML is *really* up to half the time.
 
 ## Broadcastable layers
 
@@ -58,6 +60,10 @@ There may not always be a compatible old-style layer available — for example, 
 [Custom layers](https://machinethink.net/blog/coreml-custom-layers/) let you add new functionality to Core ML. But there's a downside: you can only provide a CPU and GPU implementation. Because there is no public API to [program the ANE](programming-ane.md), custom layers cannot run on the ANE.
 
 If the custom layer occurs near the end of your model, it might make sense to split up the model into two parts and run them one after the other. The first part can use the ANE, while the second part that has the custom layer in it, will use the CPU or GPU. That's likely to be faster than running the entire thing on the CPU or GPU.
+
+## Suspicious layers?
+
+- ~~upsampling~~: Recently I worked with a model where upsampling layers appeared to run just fine on the ANE (Core ML also has a `Espresso::ANERuntimeEngine::upsample_kernel`), so I guess these do work.
 
 ## More?
 
