@@ -19,7 +19,7 @@ However... Core ML may decide to run a portion of your model on the ANE and the 
 Core ML uses three different "engines" that are implemented in the private Espresso framework:
 
 - ANE — `Espresso::ANERuntimeEngine`
-- GPU — `Espresso::MPSEngine`
+- GPU — `Espresso::MPSEngine` and `Espresso::MetalLowmemEngine`
 - CPU — `Espresso::BNNSEngine`
 
 It can switch between these engines when running your model. By looking at which engine name appears in the debugger's stack trace, you can see which engine / processor is currently being used.
@@ -55,3 +55,19 @@ If all else fails, use one of the following breakpoints and manually step throug
 - `Espresso::net::__forward`
 
 If you end up in a function such as `Espresso::elementwise_kernel_cpu::__launch`, it's a pretty good hint that you're now running on the CPU.
+
+## Instruments Time Profiler
+
+If you're not sure which breakpoints to set, or you want to get some insights into how fast the different parts of your model are, run your app with the **Time Profiler** instrument.
+
+I recommend making a new, empty app. Call your Core ML model 100 times or so in a loop. 
+
+Run the app in Instruments with the Time Profiler template and open up the Call Tree. 
+
+> **Tip:** Option-click on an item to expand everything below it. That will save you a bunch of clicking.
+
+Find the symbol `-[MLNeuralNetworkEngine predictionFromFeatures:...]`. Right-click it, choose **Focus on subtree**.
+
+Now you'll see all the functions that are being called during the execution of the model, and how much time they relatively take up. The names of these functions will give good clues as to where the model is being executed, and you can use them as breakpoints as well.
+
+When using the ANE, there is also a call to `-[_ANEClient evaluateWithModel...]`. This appears to measure the time it takes to run the model on the ANE.
