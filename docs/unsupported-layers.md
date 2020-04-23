@@ -61,9 +61,11 @@ There may not always be a compatible old-style layer available — for example, 
 
 If the custom layer occurs near the end of your model, it might make sense to split up the model into two parts and run them one after the other. The first part can use the ANE, while the second part that has the custom layer in it, will use the CPU or GPU. That's likely to be faster than running the entire thing on the CPU or GPU.
 
-## Suspicious layers?
+## Layers that do work
 
-- ~~upsampling~~: Recently I worked with a model where upsampling layers appeared to run just fine on the ANE (Core ML also has a `Espresso::ANERuntimeEngine::upsample_kernel`), so I guess these do work.
+- upsampling: Recently I worked with a model where upsampling layers appeared to run just fine on the ANE (Core ML also has a `Espresso::ANERuntimeEngine::upsample_kernel`), so I guess these do work.
+
+- deconvolution
 
 ## More?
 
