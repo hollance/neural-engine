@@ -31,5 +31,6 @@ I was originally planning to make this a blog post but decided to put it on GitH
 - [Isn't the ANE the same as the GPU?](docs/ane-vs-gpu.md)
 - [Is the ANE 16-bit?](docs/16-bit.md)
 - [Which Core ML layers are not supported by the ANE?](docs/unsupported-layers.md)
+- [How to replace unsupported layers](docs/model-surgery.md)
 - [How does the ANE work internally?](docs/internals.md)
 - [Other weird issues](docs/other.md)

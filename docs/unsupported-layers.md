@@ -46,7 +46,7 @@ You can often replace these broadcastable layers with older layer types from Cor
 
 The problem is that the TensorFlow and ONNX converters have a tendency to prefer these new broadcastable layers, when you use the argument `minimum_ios_deployment_target='13'`.
 
-When that happens, and your model does not [run on the ANE](is-model-using-ane.md), you can perform some [model surgery](https://leanpub.com/coreml-survival-guide) and replace these layers with the older versions:
+When that happens, and your model does not [run on the ANE](is-model-using-ane.md), you can perform some [model surgery](model-surgery.md) and replace these layers with the older versions:
 
 - `AddBroadcastableLayer` → `AddLayer`
 - `MultiplyBroadcastableLayer` → `MultiplyLayer` or `ScaleLayer` or a linear `Activation` layer
