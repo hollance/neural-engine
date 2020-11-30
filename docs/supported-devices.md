@@ -53,6 +53,16 @@ Devices:
 - iPhone 11 Pro Max (2019)
 - iPhone SE (2nd gen, 2020)
 
+### [M1](https://en.wikipedia.org/wiki/Apple_M1)
+
+This Neural Engine has 16 cores and can perform up to 11 trillion operations per second. It is the first Neural Engine available on a macOS device. 
+
+Devices: 
+
+- MacBook Air (2020)
+- MacBook Pro (2020)
+- Mac mini (2020)
+
 ## Recent devices without a Neural Engine
 
 It's important to note that not *all* new devices have a Neural Engine. The A10 chipset does not have an ANE but is still being used in certain devices.
@@ -73,5 +83,3 @@ Devices with an A10X Fusion:
 Devices older than 2016 obviously do not have a Neural Engine.
 
 There is currently no Apple Watch with an ANE.
-
-There currently are no Macs that have an ANE.
