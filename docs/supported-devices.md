@@ -60,7 +60,7 @@ This Neural Engine has 16 cores and can perform up to 11 trillion operations per
 Devices: 
 
 - MacBook Air (2020)
-- MacBook Pro (2020)
+- MacBook Pro 13" with two Thunderbolt 3 ports (2020)
 - Mac mini (2020)
 
 ## Recent devices without a Neural Engine
