@@ -22,6 +22,4 @@ Core ML uses the following frameworks for the different processors:
 
 Core ML can split up a model so that one part runs on the ANE and another part on the GPU or CPU. It switches between these different frameworks when it does that.
 
-iPhones and iPads have **shared memory**, which means that the CPU, GPU, and ANE all use the same RAM. The advantage of shared memory is that you don't need to upload data from one processor to the other. But that doesn't mean switching between processors has no cost: the data still needs to be converted into a suitable format. For example, on the GPU the data needs to be put into a texture object first.
-
-On the Mac, the GPU may have its own RAM (often called VRAM). There currently are no Macs that have an ANE — we might see that when Macs ship with ARM instead of Intel CPUs.
+iPhones, iPads and Apple Silicon Macs have **shared memory**, which means that the CPU, GPU, and ANE all use the same RAM. The advantage of shared memory is that you don't need to upload data from one processor to the other. But that doesn't mean switching between processors has no cost: the data still needs to be converted into a suitable format. For example, on the GPU the data needs to be put into a texture object first.
