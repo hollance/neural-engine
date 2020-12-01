@@ -12,12 +12,6 @@ That said, Core ML is mostly a **black box**. We have no insight into how Core M
 
 **Tip:** If your model has just one or two layers that are unsupported by the ANE, it's smart to [edit the mlmodel file](https://leanpub.com/coreml-survival-guide) and replace those layers with an alternative that *does* work on the ANE. Running the entire model on the ANE will make your model much faster and more energy efficient.
 
-## Tip: Use the os_log instrument to look at warning / error messages
-
-It's possible that Core ML prints an error message such as "[coreml] Error computing NN outputs -1" or "Error plan build: -1" to the console. Unfortunately, such messages aren't very helpful in diagnosing what's causing the error.
-
-To get more useful messages, run your app in Instruments using the **os_log** instrument. Core ML will print more information here.
-
 ## Problematic layers
 
 This list is by no means exhaustive, but the following layer types are known to not work on the ANE:
