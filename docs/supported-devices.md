@@ -44,7 +44,7 @@ Devices:
 
 ### [A13 Bionic](https://en.wikipedia.org/wiki/Apple_A13)
 
-This Neural Engine has 8 cores and is 20% faster and consumes 15% lower power than the A12. The CPU in the A13 also has its own machine learning accelerators that do matrix multiplications up to 6x faster than the A12's CPU.
+This Neural Engine has 8 cores and is 20% faster and consumes 15% lower power than the A12.
 
 Devices: 
 
@@ -53,15 +53,35 @@ Devices:
 - iPhone 11 Pro Max (2019)
 - iPhone SE (2nd gen, 2020)
 
+The CPU in the A13 also has its own machine learning accelerators (AMX blocks) that do matrix multiplications up to 6x faster than the A12's CPU.
+
+### [A14 Bionic](https://en.wikipedia.org/wiki/Apple_A14)
+
+The A14 has a 16-core Neural Engine that is twice as fast as the previous generation, and can perform 11 trillion operations per second.
+
+Devices: 
+
+- iPad Air (2020)
+- iPhone 12 (2020)
+- iPhone 12 Mini (2020)
+- iPhone 12 Pro (2020)
+- iPhone 12 Pro Max (2020)
+
+The A14 also has second-generation "AMX blocks" for accelerating machine learning operations (matrix multiplications) on the CPU.
+
 ### [M1](https://en.wikipedia.org/wiki/Apple_M1)
 
-This Neural Engine has 16 cores and can perform up to 11 trillion operations per second. It is the first Neural Engine available on a macOS device. 
+The Neural Engine in the M1 has 16 cores and can perform up to 11 trillion operations per second. It is the first Neural Engine available on a macOS device.
+
+Most likely this is the same Neural Engine as in the A14 Bionic.
 
 Devices: 
 
 - MacBook Air (2020)
 - MacBook Pro 13" with two Thunderbolt 3 ports (2020)
 - Mac mini (2020)
+
+The Neural Engine is not available on Intel-based Macs, only on Macs with Apple Silicon.
 
 ## Recent devices without a Neural Engine
 
@@ -83,3 +103,5 @@ Devices with an A10X Fusion:
 Devices older than 2016 obviously do not have a Neural Engine.
 
 There is currently no Apple Watch with an ANE.
+
+Intel-based Macs do not have an ANE.
