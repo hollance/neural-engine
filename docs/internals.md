@@ -5,3 +5,5 @@ Good question! I don't think anyone outside Apple knows, but other NPUs seem to 
 In the mean time, check out [these](https://www.youtube.com/watch?v=MXxN4fv01c8) [explanations](https://www.youtube.com/watch?v=kBjYK3K3P6M) of the TPU to get an idea of how Google does it.
 
 Also check out NVIDIA's [Tensor Cores](https://www.nvidia.com/en-us/data-center/tensorcore/).
+
+[What is the Google Pixel 4’s Neural Core?](https://www.androidauthority.com/google-pixel-4-neural-core-1045318/)

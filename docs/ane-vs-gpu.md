@@ -10,15 +10,13 @@ To program the GPU you need to use **Metal**, Apple's GPU programming language. 
 
 Both iOS and macOS provide **Metal Performance Shaders** (MPS), a framework that has pre-built shaders for many image processing tasks. MPS also has compute shaders for neural network operations such as convolutions. In fact, when Core ML runs your model on the GPU, it uses MPS under the hood. 
 
-Metal cannot be used to program the ANE, it's exclusively for the GPU.
-
-There currently is no public framework for programming the ANE. There are several private, undocumented frameworks but obviously we cannot use them as Apple rejects apps that use private frameworks. (Perhaps in the future Apple will provide a public version of [AppleNeuralEngine.framework](https://github.com/nst/iOS-Runtime-Headers/tree/master/PrivateFrameworks/AppleNeuralEngine.framework).)
+Metal cannot be used to program the ANE, it's exclusively for the GPU. There is currently no public framework for directly programming the ANE.
 
 Core ML uses the following frameworks for the different processors:
 
-- CPU: BNNS, or Basic Neural Network Subroutines, a part of Accelerate.framework
-- GPU: Metal Performance Shaders (MPS)
-- ANE: private frameworks
+- **CPU:** BNNS, or Basic Neural Network Subroutines, a part of Accelerate.framework
+- **GPU:** Metal Performance Shaders (MPS)
+- **ANE:** private frameworks
 
 Core ML can split up a model so that one part runs on the ANE and another part on the GPU or CPU. It switches between these different frameworks when it does that.
 

@@ -4,9 +4,15 @@ Even though you can use `MLModelConfiguration` to tell Core ML what your prefere
 
 Core ML may also split your model into multiple sections and run each using a different processor. So it could be using both the ANE *and* the CPU or GPU during the same inference pass.
 
-> **Tip:** Press the Pause button in the debugger. If there's a thread **H11ANEServicesThread** then Core ML is using the Neural Engine.
+## H11ANEServicesThread
 
-If the performance of your model on the ANE isn't much faster than on the GPU, Core ML may only be using the ANE for a portion of the model — or not at all. You can verify this by setting a Metal or BNNS breakpoint.
+While your app is running on the device, press the Pause button in the debugger. If there's a thread with the name **H11ANEServicesThread**, then Core ML is using the Neural Engine for at least some portion of your model.
+
+## Try `computeUnits`
+
+Change `MLModelConfiguration`'s `computeUnits` option from `.all` to `.cpuAndGPU` and `.cpuOnly`. 
+
+If the performance of your model with `.all` isn't much faster than with the other options, Core ML may only be using the ANE for a portion of the model — or not at all.
 
 ## Breakpoints
 
@@ -28,8 +34,11 @@ To find out if the model (also) runs on the GPU or CPU, you can use the followin
 
 - `Espresso::MPSEngine::context::__launch_kernel`
 - `Espresso::BNNSEngine::convolution_kernel::__launch`
+- `Espresso::elementwise_kernel_cpu::__launch`
 
-Note that these symbols may change between iOS versions. To find other symbols, run your app on a device or the simulator and break into the debugger. Type the following at the debugger prompt:
+### Which symbols to look for?
+
+The symbols mentioned above may change between iOS versions. To find other possible symbols that you can use for breakpoints, run your app on a device or the simulator and break into the debugger. Type the following at the debugger prompt:
 
 ```nohighlight
 (lldb) image list Espresso
