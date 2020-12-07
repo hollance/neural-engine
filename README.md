@@ -35,3 +35,4 @@ I was originally planning to make this a blog post but decided to put it on GitH
 - [How to replace unsupported layers](docs/model-surgery.md)
 - [How does the ANE work internally?](docs/internals.md)
 - [Other weird issues](docs/other.md)
+- [Reverse engineering the ANE](docs/reverse-engineering.md)
