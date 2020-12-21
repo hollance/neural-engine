@@ -4,3 +4,9 @@ There is currently no public API for using the ANE, but there are private framew
 
 geohot has published [some initial results](https://github.com/geohot/tinygrad/tree/master/ane) in the tinygrad repo.
 
+Recordings of the live streams where he's figuring how the ANE works:
+
+- https://www.youtube.com/watch?v=H6ZpMMDvB1M
+- https://www.youtube.com/watch?v=JAyw7OAcXDE
+- https://www.youtube.com/watch?v=Cb2KwcnDKrk
+- https://www.youtube.com/watch?v=9LzJ3h9iKEA
