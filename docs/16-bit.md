@@ -10,9 +10,7 @@ The ANE appears to use float16 for everything. This means that if your model has
 
 ## Multiprecision
 
-Apple claims that the ANE in the A12 Bionic has "multiprecision" support. This is also known as variable precision.
-
-TODO: Look into what this actually means.
+Apple claims that the ANE in the A12 Bionic has "multiprecision" support. This is also known as variable precision. Variable precision allows for types that are not limited by a fixed number of bits, but instead limited by the memory available in the system. For example, the type float16 has a fixed precision as it is limited by 16 bits, but a variable precision type (such as BigInteger in Java) does not have such limits, and will allocate as much memory as needed to present the value accurately.
 
 ## Quantized operations
 
