@@ -8,7 +8,7 @@ The ANE isn't the only NPU out there — many companies besides Apple are develo
 
 ## Why this document?
 
-I provide [ML consulting services for iOS](https://machinethink.net/hire) and often get email from people who are confused why their model doesn't appear to be running on the Neural Engine, or **why it is so slow** when the ANE is supposed to be way faster than the GPU...
+When I was still providing ML consulting services for iOS, I would often get email from people who are confused why their model doesn't appear to be running on the Neural Engine, or **why it is so slow** when the ANE is supposed to be way faster than the GPU...
 
 It turns out that **not every Core ML model can make full use of the ANE**. The reason why can be complicated, hence this document tries to answer the most common questions. 
 
@@ -16,9 +16,7 @@ The ANE is great for making ML models run really fast on iPhones and iPads. A mo
 
 > **Note:** Everything here was obtained by experimentation. I do not work at Apple and never have, so I am not privy to any implementation details of this chip. Some of this information is probably wrong. It's definitely incomplete. If you know something that isn't explained here, or if you find information that is wrong or missing, please [file an issue](https://github.com/hollance/neural-engine/issues) or [make a pull request](https://github.com/hollance/neural-engine/pulls). Thanks!
 
-If you want to learn more about Core ML in general, I've also written the [Core ML Survival Guide](https://leanpub.com/coreml-survival-guide), an e-book full of tips & tricks about Core ML. Also check out [my blog about ML on mobile](http://machinethink.net/blog).
-
-I was originally planning to make this a blog post but decided to put it on GitHub to make it a community resource and so that other people could contribute to it too. Please do!
+I was originally planning to make this a [blog post](http://machinethink.net/blog) but decided to put it on GitHub to make it a community resource and so that other people could contribute to it too. Please do!
 
 ## Table of contents
 
