@@ -83,6 +83,18 @@ Devices:
 
 The Neural Engine is not available on Intel-based Macs, only on Macs with Apple Silicon.
 
+### [A15 Bionic](https://en.wikipedia.org/wiki/Apple_A15)
+
+The A15 has a 16-core Neural Engine, with the same amount of cores it can perform 15.8 trillion operations per second (43% faster than the previous generation). 
+
+Devices: 
+
+- iPad Mini (6th gen, 2021)
+- iPhone 13 (2021)
+- iPhone 13 Mini (2021)
+- iPhone 13 Pro (2021)
+- iPhone 13 Pro Max (2021)
+
 ## Recent devices without a Neural Engine
 
 It's important to note that not *all* new devices have a Neural Engine. The A10 chipset does not have an ANE but is still being used in certain devices.
