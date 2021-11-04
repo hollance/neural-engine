@@ -80,6 +80,8 @@ Devices:
 - MacBook Air (2020)
 - MacBook Pro 13" with two Thunderbolt 3 ports (2020)
 - Mac mini (2020)
+- iPad Pro 11-inch (3rd gen, 2021)
+- iPad Pro 12.9-inch (5th gen, 2021)
 
 The Neural Engine is not available on Intel-based Macs, only on Macs with Apple Silicon.
 
