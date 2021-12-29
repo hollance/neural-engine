@@ -21,8 +21,9 @@ Devices:
 - iPhone XS (2018)
 - iPhone XS Max (2018)
 - iPhone XR (2018)
-- iPad Air 3rd gen (2019)
-- iPad Mini 5th gen (2019)
+- iPad (8th gen, 2020)
+- iPad Air (3rd gen, 2019)
+- iPad Mini (5th gen, 2019)
 
 ### [A12X Bionic](https://en.wikipedia.org/wiki/Apple_A12X)
 
@@ -52,6 +53,7 @@ Devices:
 - iPhone 11 Pro (2019)
 - iPhone 11 Pro Max (2019)
 - iPhone SE (2nd gen, 2020)
+- iPad (9th gen, 2021)
 
 The CPU in the A13 also has its own machine learning accelerators (AMX blocks) that do matrix multiplications up to 6x faster than the A12's CPU.
 
