@@ -84,6 +84,7 @@ Devices:
 - Mac mini (2020)
 - iPad Pro 11-inch (3rd gen, 2021)
 - iPad Pro 12.9-inch (5th gen, 2021)
+- iPad Air (5th gen, 2022)
 
 The Neural Engine is not available on Intel-based Macs, only on Macs with Apple Silicon.
 
@@ -98,6 +99,7 @@ Devices:
 - iPhone 13 Mini (2021)
 - iPhone 13 Pro (2021)
 - iPhone 13 Pro Max (2021)
+- iPhone SE (3rd gen, 2022)
 
 ## Recent devices without a Neural Engine
 
