@@ -74,9 +74,15 @@ The A14 also has second-generation "AMX blocks" for accelerating machine learnin
 
 ### [M1 (Family)](https://en.wikipedia.org/wiki/Apple_M1)
 
-The Neural Engine in the M1 has 16 cores and can perform up to 11 trillion operations per second. It is the first Neural Engine available on a macOS device.
+M1 chip family has four members: M1(APL1102),M1 Pro(APL1103),M1 Max(APL1105),M1 Ultra(APL1W06)
 
-Most likely this is the same Neural Engine as in the A14 Bionic.
+The Neural Engine of M1, M1 Pro and M1 Max chips has the same scale, with 16 cores, which can perform up to 11 trillion operations per second.
+
+M1 Ultra is actually connecting the grains of two M1 Max chips using an UltraFusion package architecture, but it will be treated as one chip by the software. M1 Ultra's Neural Engine has 32 cores and can perform up to 22 trillion operations per second.
+
+They were the first neural engines available on macOS devices.
+
+Their neural engine architecture is likely the same as that of the A14 Bionic.
 
 M1 Devices: 
 
