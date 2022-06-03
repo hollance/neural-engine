@@ -1,6 +1,6 @@
 # Which devices have an ANE?
 
-### [A11 Bionic](https://en.wikipedia.org/wiki/Apple_A11)
+### [A11 Bionic](https://en.wikipedia.org/wiki/Apple_A11)(APL1W72)
 
 The first Neural Engine. It has 2 cores and can perform up to 600 billion operations per second. However, this version of the Neural Engine cannot be used by Core ML. It's only used for tasks such as Face ID and Animoji. 
 
