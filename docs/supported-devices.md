@@ -55,6 +55,7 @@ Devices:
 - iPhone 11 Pro Max (2019)
 - iPhone SE (2nd gen, 2020)
 - iPad (9th gen, 2021)
+- Studio Display (2022)
 
 The CPU in the A13 also has its own machine learning accelerators (AMX blocks) that do matrix multiplications up to 6x faster than the A12's CPU.
 
@@ -93,6 +94,21 @@ M1 Devices:
 - iPad Pro 12.9-inch (5th gen, 2021)
 - iPad Air (5th gen, 2022)
 
+M1 Pro Devices：
+
+- MacBook Pro 14-inch (2021)
+- MacBook Pro 16-inch (2021)
+
+M1 Max Devices:
+
+- MacBook Pro 14-inch (2021)
+- MacBook Pro 16-inch (2021)
+- Mac Studio (2022)
+
+M1 Ultra Devices:
+
+- Mac Studio (2022)
+
 The Neural Engine is not available on Intel-based Macs, only on Macs with Apple Silicon.
 
 ### [A15 Bionic](https://en.wikipedia.org/wiki/Apple_A15)
@@ -112,14 +128,14 @@ Devices:
 
 It's important to note that not *all* new devices have a Neural Engine. The A10 chipset does not have an ANE but is still being used in certain devices.
 
-Devices with an A10 Fusion:
+Devices with an A10 Fusion (APL1024 / APL1W24):
 
 - iPhone 7, 7 Plus (2016)
 - iPad (6th gen, 2018)
 - iPad (7th gen, 2019)
 - iPod touch (7th gen, 2019)
 
-Devices with an A10X Fusion:
+Devices with an A10X Fusion (APL1071 / APL1W71):
 
 - iPad Pro 10.5-inch (2017)
 - iPad Pro 12.9-inch (2nd gen, 2017)
