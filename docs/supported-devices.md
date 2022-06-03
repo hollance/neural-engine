@@ -75,7 +75,7 @@ The A14 also has second-generation "AMX blocks" for accelerating machine learnin
 
 ### [M1 (Family)](https://en.wikipedia.org/wiki/Apple_M1)
 
-M1 chip family has four members: #### M1(APL1102),#### M1 Pro(APL1103),#### M1 Max(APL1105),#### M1 Ultra(APL1W06)
+M1 chip family has four members: M1(APL1102), M1 Pro(APL1103), M1 Max(APL1105), M1 Ultra(APL1W06)
 
 The Neural Engine of M1, M1 Pro and M1 Max chips has the same scale, with 16 cores, which can perform up to 11 trillion operations per second.
 
