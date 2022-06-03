@@ -72,7 +72,7 @@ Devices:
 
 The A14 also has second-generation "AMX blocks" for accelerating machine learning operations (matrix multiplications) on the CPU.
 
-### [M1 Family](https://en.wikipedia.org/wiki/Apple_M1)
+### [M1 (Family)](https://en.wikipedia.org/wiki/Apple_M1)
 
 The Neural Engine in the M1 has 16 cores and can perform up to 11 trillion operations per second. It is the first Neural Engine available on a macOS device.
 
