@@ -111,7 +111,7 @@ M1 Ultra Devices:
 
 The Neural Engine is not available on Intel-based Macs, only on Macs with Apple Silicon.
 
-### [A15 Bionic](https://en.wikipedia.org/wiki/Apple_A15)
+### [A15 Bionic](https://en.wikipedia.org/wiki/Apple_A15)(APL1007 / APL1W07)
 
 The A15 has a 16-core Neural Engine, with the same amount of cores it can perform 15.8 trillion operations per second (43% faster than the previous generation). 
 
