@@ -101,6 +101,15 @@ Devices:
 - iPhone 13 Pro Max (2021)
 - iPhone SE (3rd gen, 2022)
 
+### [M2](https://en.wikipedia.org/wiki/Apple_silicon#Apple_M2)
+
+The M2 appears to use the 16-core Neural Engine from the A15 Bionic, performing up to 15.8 trillion operations per second.
+
+Devices:
+
+- MacBook Air (2022)
+- MacBook Pro 13" with two Thunderbolt 3 ports (2022)
+
 ## Recent devices without a Neural Engine
 
 It's important to note that not *all* new devices have a Neural Engine. The A10 chipset does not have an ANE but is still being used in certain devices.
