@@ -101,7 +101,7 @@ Devices:
 - iPhone 13 Pro (2021)
 - iPhone 13 Pro Max (2021)
 - iPhone SE (3rd gen, 2022)
-- Apple TV 4K (7th gen, 2022)
+- Apple TV 4K (3rd gen, 2022)
 
 ### [M2](https://en.wikipedia.org/wiki/Apple_silicon#Apple_M2)
 
