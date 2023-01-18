@@ -100,6 +100,8 @@ Devices:
 - iPhone 13 Mini (2021)
 - iPhone 13 Pro (2021)
 - iPhone 13 Pro Max (2021)
+- iPhone 14 (2022)
+- iPhone 14 Plus (2022)
 - iPhone SE (3rd gen, 2022)
 - Apple TV 4K (3rd gen, 2022)
 
@@ -114,6 +116,15 @@ Devices:
 - iPad Pro 11-inch (4th gen, 2022)
 - iPad Pro 12.9-inch (6th gen, 2022)
 - Mac mini (2023)
+
+### [A16 Bionic](https://en.wikipedia.org/wiki/Apple_A16)
+
+The A16 has a 16-core Neural Engine, the same amount of cores as its predecessor. However, it can perform up to 17 trillion operations per second (7% faster than the previous generation). 
+
+Devices:
+
+- iPhone 14 Pro (2022)
+- iPhone 14 Pro Max (2022)
 
 ## Recent devices without a Neural Engine
 
