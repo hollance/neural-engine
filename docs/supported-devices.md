@@ -1,6 +1,6 @@
 # Which devices have an ANE?
 
-### [A11 Bionic](https://en.wikipedia.org/wiki/Apple_A11)
+### [A11 Bionic](https://en.wikipedia.org/wiki/Apple_A11) (APL1072 / APL1W72)
 
 The first Neural Engine. It has 2 cores and can perform up to 600 billion operations per second. However, this version of the Neural Engine cannot be used by Core ML. It's only used for tasks such as Face ID and Animoji. 
 
@@ -10,7 +10,7 @@ Devices:
 - iPhone 8 Plus (2017)
 - iPhone X (2017)
 
-### [A12 Bionic](https://en.wikipedia.org/wiki/Apple_A12)
+### [A12 Bionic](https://en.wikipedia.org/wiki/Apple_A12) (APL1081 / APL1W81)
 
 The second generation of the Neural Engine, but the first version that can be used by Core ML (on iOS 12 and up).
 
@@ -26,7 +26,7 @@ Devices:
 - iPad Mini (5th gen, 2019)
 - Apple TV 4K (2nd gen, 2021)
 
-### [A12X Bionic](https://en.wikipedia.org/wiki/Apple_A12X)
+### [A12X Bionic](https://en.wikipedia.org/wiki/Apple_A12X) (APL1083)
 
 This has the same Neural Engine as the A12. 
 
@@ -35,9 +35,10 @@ Devices:
 - iPad Pro 11-inch (1st gen, 2018)
 - iPad Pro 12.9-inch (3rd gen, 2018)
 
-### [A12Z Bionic](https://en.wikipedia.org/wiki/Apple_A12Z)
+### [A12Z Bionic](https://en.wikipedia.org/wiki/Apple_A12Z) (APL1083)
 
 This has the same Neural Engine as the A12X and A12. 
+A12Z appears to be identical to A12X, but with newer Stepping.
 
 Devices: 
 
@@ -45,7 +46,7 @@ Devices:
 - iPad Pro 12.9-inch (4th gen, 2020)
 - Developer Transition Kit (2020)
 
-### [A13 Bionic](https://en.wikipedia.org/wiki/Apple_A13)
+### [A13 Bionic](https://en.wikipedia.org/wiki/Apple_A13) (APL1085 / APL1W85)
 
 This Neural Engine has 8 cores and is 20% faster and consumes 15% lower power than the A12.
 
@@ -56,10 +57,11 @@ Devices:
 - iPhone 11 Pro Max (2019)
 - iPhone SE (2nd gen, 2020)
 - iPad (9th gen, 2021)
+- Studio Display (2022)
 
 The CPU in the A13 also has its own machine learning accelerators (AMX blocks) that do matrix multiplications up to 6x faster than the A12's CPU.
 
-### [A14 Bionic](https://en.wikipedia.org/wiki/Apple_A14)
+### [A14 Bionic](https://en.wikipedia.org/wiki/Apple_A14) (APL1001 / APL1W01)
 
 The A14 has a 16-core Neural Engine that is twice as fast as the previous generation, and can perform 11 trillion operations per second.
 
@@ -73,13 +75,19 @@ Devices:
 
 The A14 also has second-generation "AMX blocks" for accelerating machine learning operations (matrix multiplications) on the CPU.
 
-### [M1](https://en.wikipedia.org/wiki/Apple_M1)
+### [M1 (Family)](https://en.wikipedia.org/wiki/Apple_M1)
 
-The Neural Engine in the M1 has 16 cores and can perform up to 11 trillion operations per second. It is the first Neural Engine available on a macOS device.
+M1 chip family has four members: **M1(APL1102)**, **M1 Pro(APL1103)**, **M1 Max(APL1105)**, **M1 Ultra(APL1W06)**
 
-Most likely this is the same Neural Engine as in the A14 Bionic.
+The Neural Engine of M1, M1 Pro and M1 Max chips has the same scale, with 16 cores, which can perform up to 11 trillion operations per second.
 
-Devices: 
+M1 Ultra is actually connecting the grains of two M1 Max chips using an UltraFusion package architecture, but it will be treated as one chip by the software. M1 Ultra's Neural Engine has 32 cores and can perform up to 22 trillion operations per second.
+
+They were the first neural engines available on macOS devices.
+
+Their neural engine architecture is likely the same as that of the A14 Bionic.
+
+M1 Devices: 
 
 - MacBook Air (2020)
 - MacBook Pro 13" with two Thunderbolt 3 ports (2020)
@@ -88,9 +96,24 @@ Devices:
 - iPad Pro 12.9-inch (5th gen, 2021)
 - iPad Air (5th gen, 2022)
 
+M1 Pro Devices：
+
+- MacBook Pro 14-inch (2021)
+- MacBook Pro 16-inch (2021)
+
+M1 Max Devices:
+
+- MacBook Pro 14-inch (2021)
+- MacBook Pro 16-inch (2021)
+- Mac Studio (2022)
+
+M1 Ultra Devices:
+
+- Mac Studio (2022)
+
 The Neural Engine is not available on Intel-based Macs, only on Macs with Apple Silicon.
 
-### [A15 Bionic](https://en.wikipedia.org/wiki/Apple_A15)
+### [A15 Bionic](https://en.wikipedia.org/wiki/Apple_A15)(APL1007 / APL1W07)
 
 The A15 has a 16-core Neural Engine, with the same amount of cores it can perform 15.8 trillion operations per second (43% faster than the previous generation). 
 
@@ -131,14 +154,14 @@ Devices:
 
 It's important to note that not *all* new devices have a Neural Engine. The A10 chipset does not have an ANE but is still being used in certain devices.
 
-Devices with an A10 Fusion:
+Devices with an A10 Fusion (APL1024 / APL1W24):
 
 - iPhone 7, 7 Plus (2016)
 - iPad (6th gen, 2018)
 - iPad (7th gen, 2019)
 - iPod touch (7th gen, 2019)
 
-Devices with an A10X Fusion:
+Devices with an A10X Fusion (APL1071 / APL1W71):
 
 - iPad Pro 10.5-inch (2017)
 - iPad Pro 12.9-inch (2nd gen, 2017)
