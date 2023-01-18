@@ -43,6 +43,7 @@ Devices:
 
 - iPad Pro 11-inch (2nd gen, 2020)
 - iPad Pro 12.9-inch (4th gen, 2020)
+- Developer Transition Kit (2020)
 
 ### [A13 Bionic](https://en.wikipedia.org/wiki/Apple_A13)
 
@@ -103,7 +104,7 @@ Devices:
 - iPhone 14 (2022)
 - iPhone 14 Plus (2022)
 - iPhone SE (3rd gen, 2022)
-- Apple TV 4K (7th gen, 2022)
+- Apple TV 4K (3rd gen, 2022)
 
 ### [M2](https://en.wikipedia.org/wiki/Apple_silicon#Apple_M2)
 
@@ -115,6 +116,7 @@ Devices:
 - MacBook Pro 13" with two Thunderbolt 3 ports (2022)
 - iPad Pro 11-inch (4th gen, 2022)
 - iPad Pro 12.9-inch (6th gen, 2022)
+- Mac mini (2023)
 
 ### [A16 Bionic](https://en.wikipedia.org/wiki/Apple_A16)
 
