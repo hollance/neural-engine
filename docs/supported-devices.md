@@ -113,6 +113,7 @@ Devices:
 - MacBook Pro 13" with two Thunderbolt 3 ports (2022)
 - iPad Pro 11-inch (4th gen, 2022)
 - iPad Pro 12.9-inch (6th gen, 2022)
+- Mac mini (2023)
 
 ## Recent devices without a Neural Engine
 
