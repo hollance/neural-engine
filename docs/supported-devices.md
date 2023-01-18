@@ -43,6 +43,7 @@ Devices:
 
 - iPad Pro 11-inch (2nd gen, 2020)
 - iPad Pro 12.9-inch (4th gen, 2020)
+- Developer Transition Kit (2020)
 
 ### [A13 Bionic](https://en.wikipedia.org/wiki/Apple_A13)
 
