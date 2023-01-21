@@ -99,7 +99,6 @@ Devices:
 - MacBook Pro 14-inch (2021)
 - MacBook Pro 16-inch (2021)
 
-
 ### [M1 Max](https://en.wikipedia.org/wiki/Apple_M1#Variants)
 The Neural Engine in M1 Max has 16 cores and can perform up to 11 trillion operations per second. It is most likely identical to the M1's Neural Engine.
 
