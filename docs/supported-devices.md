@@ -91,6 +91,22 @@ Devices:
 
 The Neural Engine is not available on Intel-based Macs, only on Macs with Apple Silicon.
 
+### [M1 Pro and M1 Max](https://en.wikipedia.org/wiki/Apple_M1#Variants)
+The Neural Engine in M1 Pro and M1 Max has 16 cores and can perform up to 11 trillion operations per second. It is most likely identical to the M1's Neural Engine.
+
+Devices:
+
+- MacBook Pro 14-inch (2021)
+- MacBook Pro 16-inch (2021)
+- Mac Studio (2022)
+
+### [M1 Ultra](https://en.wikipedia.org/wiki/Apple_M1#Variants)
+The Neural Engine in M1 Ultra has 32 cores and can perform up to 22 trillion operations per second.
+
+Devices:
+
+- Mac Studio (2022)
+
 ### [A15 Bionic](https://en.wikipedia.org/wiki/Apple_A15)
 
 The A15 has a 16-core Neural Engine, with the same amount of cores it can perform 15.8 trillion operations per second (43% faster than the previous generation). 
