@@ -84,11 +84,34 @@ Devices:
 - MacBook Air (2020)
 - MacBook Pro 13" with two Thunderbolt 3 ports (2020)
 - Mac mini (2020)
+- iMac 24-inch (2021)
 - iPad Pro 11-inch (3rd gen, 2021)
 - iPad Pro 12.9-inch (5th gen, 2021)
 - iPad Air (5th gen, 2022)
 
 The Neural Engine is not available on Intel-based Macs, only on Macs with Apple Silicon.
+
+### [M1 Pro](https://en.wikipedia.org/wiki/Apple_M1#Variants)
+The Neural Engine in M1 M1 Max has 16 cores and can perform up to 11 trillion operations per second. It is most likely identical to the M1's Neural Engine.
+
+Devices:
+
+- MacBook Pro 14-inch (2021)
+- MacBook Pro 16-inch (2021)
+
+### [M1 Max](https://en.wikipedia.org/wiki/Apple_M1#Variants)
+The Neural Engine in M1 Max has 16 cores and can perform up to 11 trillion operations per second. It is most likely identical to the M1's Neural Engine.
+
+Devices:
+
+- Mac Studio (2022)
+
+### [M1 Ultra](https://en.wikipedia.org/wiki/Apple_M1#Variants)
+The Neural Engine in M1 Ultra has 32 cores and can perform up to 22 trillion operations per second.
+
+Devices:
+
+- Mac Studio (2022)
 
 ### [A15 Bionic](https://en.wikipedia.org/wiki/Apple_A15)
 
@@ -106,7 +129,7 @@ Devices:
 - iPhone SE (3rd gen, 2022)
 - Apple TV 4K (3rd gen, 2022)
 
-### [M2](https://en.wikipedia.org/wiki/Apple_silicon#Apple_M2)
+### [M2](https://en.wikipedia.org/wiki/Apple_M2)
 
 The M2 appears to use the 16-core Neural Engine from the A15 Bionic, performing up to 15.8 trillion operations per second.
 
@@ -117,6 +140,25 @@ Devices:
 - iPad Pro 11-inch (4th gen, 2022)
 - iPad Pro 12.9-inch (6th gen, 2022)
 - Mac mini (2023)
+
+### [M2 Pro](https://en.wikipedia.org/wiki/Apple_M2#Variants)
+
+The M2 Pro uses the same 16-core Neural Engine from the M2, performing up to 15.8 trillion operations per second.
+
+Devices:
+
+- MacBook Pro 14-inch (2023)
+- MacBook Pro 16-inch (2023)
+- Mac mini (2023)
+
+### [M2 Max](https://en.wikipedia.org/wiki/Apple_M2#Variants)
+
+The M2 Max uses the same 16-core Neural Engine from the M2, performing up to 15.8 trillion operations per second.
+
+Devices:
+
+- MacBook Pro 14-inch (2023)
+- MacBook Pro 16-inch (2023)
 
 ### [A16 Bionic](https://en.wikipedia.org/wiki/Apple_A16)
 
