@@ -82,7 +82,7 @@ Most likely this is the same Neural Engine as in the A14 Bionic.
 Devices: 
 
 - MacBook Air (2020)
-- MacBook Pro 13" with two Thunderbolt 3 ports (2020)
+- MacBook Pro 13-inch with two Thunderbolt 3 ports (2020)
 - Mac mini (2020)
 - iMac 24-inch (2021)
 - iPad Pro 11-inch (3rd gen, 2021)
@@ -92,7 +92,7 @@ Devices:
 The Neural Engine is not available on Intel-based Macs, only on Macs with Apple Silicon.
 
 ### [M1 Pro](https://en.wikipedia.org/wiki/Apple_M1#Variants)
-The Neural Engine in M1 M1 Max has 16 cores and can perform up to 11 trillion operations per second. It is most likely identical to the M1's Neural Engine.
+The Neural Engine in the M1 Max has 16 cores and can perform up to 11 trillion operations per second. It is most likely identical to the M1's Neural Engine.
 
 Devices:
 
@@ -104,6 +104,8 @@ The Neural Engine in M1 Max has 16 cores and can perform up to 11 trillion opera
 
 Devices:
 
+- MacBook Pro 14-inch (2021)
+- MacBook Pro 16-inch (2021)
 - Mac Studio (2022)
 
 ### [M1 Ultra](https://en.wikipedia.org/wiki/Apple_M1#Variants)
@@ -136,7 +138,7 @@ The M2 appears to use the 16-core Neural Engine from the A15 Bionic, performing 
 Devices:
 
 - MacBook Air (2022)
-- MacBook Pro 13" with two Thunderbolt 3 ports (2022)
+- MacBook Pro 13-inch with two Thunderbolt 3 ports (2022)
 - iPad Pro 11-inch (4th gen, 2022)
 - iPad Pro 12.9-inch (6th gen, 2022)
 - Mac mini (2023)
