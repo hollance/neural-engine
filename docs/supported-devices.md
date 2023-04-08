@@ -175,7 +175,7 @@ Devices:
 
 ## Recent devices without a Neural Engine
 
-It's important to note that not *all* new devices have a Neural Engine. The A10 and earlier chipset does not have an ANE but is still being used in certain devices.
+It's important to note that not *all* new devices have a Neural Engine. The A10 and earlier chipsets do not have an ANE, but are still present in certain devices released recently by Apple.
 
 Devices with an A10 Fusion:
 
@@ -190,7 +190,7 @@ Devices with an A10X Fusion:
 - iPad Pro 12.9-inch (2nd gen, 2017)
 - Apple TV 4K (1st gen, 2017)
 
-Devices older than 2016 obviously do not have a Neural Engine.
+Devices older than 2016 (using A10 Fusion or earlier chipsets) obviously do not have a Neural Engine.
 
 There is currently no Apple Watch with an ANE.
 
