@@ -172,6 +172,17 @@ Devices:
 
 - iPhone 14 Pro (2022)
 - iPhone 14 Pro Max (2022)
+- iPhone 15 (2023)
+- iPhone 15 Plus (2023)
+
+### [A17 Pro](https://en.wikipedia.org/wiki/Apple_A17)
+
+The A17 Pro has a 16-core Neural Engine, the same amount of cores as its predecessor. However, it can perform up to 35 trillion operations per second (up to 2x faster than the previous generation). 
+
+Devices:
+
+- iPhone 15 Pro (2023)
+- iPhone 15 Pro Max (2023)
 
 ## Recent devices without a Neural Engine
 
