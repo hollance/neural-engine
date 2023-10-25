@@ -172,6 +172,25 @@ Devices:
 
 - iPhone 14 Pro (2022)
 - iPhone 14 Pro Max (2022)
+- iPhone 15 (2023)
+- iPhone 15 Plus (2023)
+
+### [A17 Pro](https://en.wikipedia.org/wiki/Apple_A17)
+
+The A17 Pro has a 16-core Neural Engine, the same amount of cores as its predecessor. However, it can perform up to 35 trillion operations per second (up to 2x faster than the previous generation). 
+
+Devices:
+
+- iPhone 15 Pro (2023)
+- iPhone 15 Pro Max (2023)
+
+### [S9](https://en.wikipedia.org/wiki/Apple_silicon#Apple_S9)
+The S9 SiP has a 4-core Neural Engine, and is the first SiP to include a Neural Engine on Apple Watch. According to Apple, the Neural Engine of the S9 processes machine learning tasks up to two times faster.
+
+Devices:
+
+- Apple Watch Series 9 (2023)
+- Apple Watch Ultra 2 (2023)
 
 ## Recent devices without a Neural Engine
 
@@ -192,6 +211,6 @@ Devices with an A10X Fusion:
 
 Devices older than 2016 (using A10 Fusion or earlier chipsets) obviously do not have a Neural Engine.
 
-There is currently no Apple Watch with an ANE.
+The Apple Watch Series 8 (2022), Apple Watch SE (2nd gen) and earlier, as well as Apple Watch Ultra (2022) and earlier, do not have an ANE.
 
 Intel-based Macs do not have an ANE.
