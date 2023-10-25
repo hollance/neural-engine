@@ -211,6 +211,6 @@ Devices with an A10X Fusion:
 
 Devices older than 2016 (using A10 Fusion or earlier chipsets) obviously do not have a Neural Engine.
 
-The Apple Watch Series 8 (2022) and earlier do not have an ANE.
+The Apple Watch Series 8 (2022), Apple Watch SE (2nd gen) and earlier, as well as Apple Watch Ultra (2022) and earlier, do not have an ANE.
 
 Intel-based Macs do not have an ANE.
