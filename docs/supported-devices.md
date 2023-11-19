@@ -184,8 +184,48 @@ Devices:
 - iPhone 15 Pro (2023)
 - iPhone 15 Pro Max (2023)
 
+### [S4](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S4)
+The S4 SiP has a 2-core Neural Engine, is the first SiP with a Neural Engine on Apple Watch, and is based on the A12 Bionic's Neural Engine. It supports Core ML in watchOS 6 to enable faster processing of on-device inputs.
+
+Devices:
+
+- Apple Watch Series 4 (2018)
+
+### [S5](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S5)
+The Neural Engine in S5 has a 2-core Neural Engine and is identical to the S4's Neural Engine.
+
+Devices:
+
+- Apple Watch Series 5 (2019)
+- Apple Watch SE (1st gen, 2020)
+- HomePod mini (2020)
+
+### [S6](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S6)
+The S6 SiP has a faster 2-core Neural Engine based on the A13 Bionic.
+
+Devices:
+
+- Apple Watch Series 6 (2020)
+
+### [S7](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S7) 
+The S7 SiP has a 2-core Neural Engine and is identical to the S6's Neural Engine.
+
+Devices:
+
+- Apple Watch Series 7 (2021)
+- HomePod (2nd gen, 2023)
+
+### [S8](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S8)
+The S8 SiP has a 2-core Neural Engine and is identical to the S6's Neural Engine.
+
+Devices:
+
+- Apple Watch Series 8 (2022)
+- Apple Watch SE (2nd gen, 2022)
+- Apple Watch Ultra (1st gen, 2022)
+
 ### [S9](https://en.wikipedia.org/wiki/Apple_silicon#Apple_S9)
-The S9 SiP has a 4-core Neural Engine, and is the first SiP to include a Neural Engine on Apple Watch. According to Apple, the Neural Engine of the S9 processes machine learning tasks up to two times faster.
+The S9 SiP has a 4-core Neural Engine. According to Apple, the Neural Engine of the S9 processes machine learning tasks up to two times faster.
 
 Devices:
 
@@ -211,6 +251,6 @@ Devices with an A10X Fusion:
 
 Devices older than 2016 (using A10 Fusion or earlier chipsets) obviously do not have a Neural Engine.
 
-The Apple Watch Series 8 (2022), Apple Watch SE (2nd gen) and earlier, as well as Apple Watch Ultra (2022) and earlier, do not have an ANE.
+The Apple Watch Series 3 (2017) and earlier, do not have an ANE.
 
 Intel-based Macs do not have an ANE.
