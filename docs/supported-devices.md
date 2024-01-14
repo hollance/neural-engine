@@ -56,8 +56,9 @@ Devices:
 - iPhone 11 Pro Max (2019)
 - iPhone SE (2nd gen, 2020)
 - iPad (9th gen, 2021)
+- Studio Display (2022)
 
-The CPU in the A13 also has its own machine learning accelerators (AMX blocks) that do matrix multiplications up to 6x faster than the A12's CPU.
+The Performance Core in the A13's CPU also has its own machine learning accelerators (AMX blocks) that do matrix multiplications up to 6x faster than the A12's CPU.
 
 ### [A14 Bionic](https://en.wikipedia.org/wiki/Apple_A14)
 
@@ -65,13 +66,14 @@ The A14 has a 16-core Neural Engine that is twice as fast as the previous genera
 
 Devices: 
 
-- iPad Air (2020)
+- iPad Air (4th gen, 2020)
 - iPhone 12 (2020)
 - iPhone 12 Mini (2020)
 - iPhone 12 Pro (2020)
 - iPhone 12 Pro Max (2020)
+- iPad (10th gen, 2022)
 
-The A14 also has second-generation "AMX blocks" for accelerating machine learning operations (matrix multiplications) on the CPU.
+The A14 also has second-generation "AMX blocks" for accelerating machine learning operations (matrix multiplications) on the CPU, including Efficiency Cores.
 
 ### [M1](https://en.wikipedia.org/wiki/Apple_M1)
 
@@ -170,10 +172,69 @@ Devices:
 
 - iPhone 14 Pro (2022)
 - iPhone 14 Pro Max (2022)
+- iPhone 15 (2023)
+- iPhone 15 Plus (2023)
+
+### [A17 Pro](https://en.wikipedia.org/wiki/Apple_A17)
+
+The A17 Pro has a 16-core Neural Engine, the same amount of cores as its predecessor. However, it can perform up to 35 trillion operations per second (up to 2x faster than the previous generation). 
+
+Devices:
+
+- iPhone 15 Pro (2023)
+- iPhone 15 Pro Max (2023)
+
+### [S4](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S4)
+The S4 SiP has a 2-core Neural Engine, is the first SiP with a Neural Engine on Apple Watch, and is based on the A12 Bionic's Neural Engine. It supports Core ML in watchOS 6 to enable faster processing of on-device inputs.
+
+Devices:
+
+- Apple Watch Series 4 (2018)
+
+### [S5](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S5)
+The Neural Engine in S5 has a 2-core Neural Engine and is identical to the S4's Neural Engine.
+
+Devices:
+
+- Apple Watch Series 5 (2019)
+- Apple Watch SE (1st gen, 2020)
+- HomePod mini (2020)
+
+### [S6](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S6)
+The S6 SiP has a faster 2-core Neural Engine based on the A13 Bionic.
+
+Devices:
+
+- Apple Watch Series 6 (2020)
+
+### [S7](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S7) 
+The S7 SiP has a 2-core Neural Engine and is identical to the S6's Neural Engine.
+
+Devices:
+
+- Apple Watch Series 7 (2021)
+- HomePod (2nd gen, 2023)
+
+### [S8](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S8)
+The S8 SiP has a 2-core Neural Engine and is identical to the S6's Neural Engine.
+
+Devices:
+
+- Apple Watch Series 8 (2022)
+- Apple Watch SE (2nd gen, 2022)
+- Apple Watch Ultra (1st gen, 2022)
+
+### [S9](https://en.wikipedia.org/wiki/Apple_silicon#Apple_S9)
+The S9 SiP has a 4-core Neural Engine. According to Apple, the Neural Engine of the S9 processes machine learning tasks up to two times faster.
+
+Devices:
+
+- Apple Watch Series 9 (2023)
+- Apple Watch Ultra 2 (2023)
 
 ## Recent devices without a Neural Engine
 
-It's important to note that not *all* new devices have a Neural Engine. The A10 chipset does not have an ANE but is still being used in certain devices.
+It's important to note that not *all* new devices have a Neural Engine. The A10 and earlier chipsets do not have an ANE, but are still present in certain devices released recently by Apple.
 
 Devices with an A10 Fusion:
 
@@ -188,8 +249,8 @@ Devices with an A10X Fusion:
 - iPad Pro 12.9-inch (2nd gen, 2017)
 - Apple TV 4K (1st gen, 2017)
 
-Devices older than 2016 obviously do not have a Neural Engine.
+Devices older than 2016 (using A10 Fusion or earlier chipsets) obviously do not have a Neural Engine.
 
-There is currently no Apple Watch with an ANE.
+The Apple Watch Series 3 (2017) and earlier, do not have an ANE.
 
 Intel-based Macs do not have an ANE.
