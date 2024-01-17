@@ -84,7 +84,7 @@ Most likely this is the same Neural Engine as in the A14 Bionic.
 Devices: 
 
 - MacBook Air (2020)
-- MacBook Pro 13" with two Thunderbolt 3 ports (2020)
+- MacBook Pro 13-inch with two Thunderbolt 3 ports (2020)
 - Mac mini (2020)
 - iMac 24-inch (2021)
 - iPad Pro 11-inch (3rd gen, 2021)
@@ -94,7 +94,7 @@ Devices:
 The Neural Engine is not available on Intel-based Macs, only on Macs with Apple Silicon.
 
 ### [M1 Pro](https://en.wikipedia.org/wiki/Apple_M1#Variants)
-The Neural Engine in M1 M1 Max has 16 cores and can perform up to 11 trillion operations per second. It is most likely identical to the M1's Neural Engine.
+The Neural Engine in the M1 Max has 16 cores and can perform up to 11 trillion operations per second. It is most likely identical to the M1's Neural Engine.
 
 Devices:
 
@@ -140,10 +140,11 @@ The M2 appears to use the 16-core Neural Engine from the A15 Bionic, performing 
 Devices:
 
 - MacBook Air (2022)
-- MacBook Pro 13" with two Thunderbolt 3 ports (2022)
+- MacBook Pro 13-inch with two Thunderbolt 3 ports (2022)
 - iPad Pro 11-inch (4th gen, 2022)
 - iPad Pro 12.9-inch (6th gen, 2022)
 - Mac mini (2023)
+- Apple Vision Pro (2024)
 
 ### [M2 Pro](https://en.wikipedia.org/wiki/Apple_M2#Variants)
 
@@ -161,8 +162,17 @@ The M2 Max uses the same 16-core Neural Engine from the M2, performing up to 15.
 
 Devices:
 
-- MacBook Pro 14-inch (2023)
-- MacBook Pro 16-inch (2023)
+- MacBook Pro 14-inch (early 2023)
+- MacBook Pro 16-inch (early 2023)
+
+### [M2 Ultra](https://en.wikipedia.org/wiki/Apple_M2#Variants)
+
+The M2 Ultra has a 32-core Neural Engine, performing up to 31.6 trillion operations per second.
+
+Devices:
+
+- Mac Studio (2023)
+- Mac Pro (2023)
 
 ### [A16 Bionic](https://en.wikipedia.org/wiki/Apple_A16)
 
@@ -183,6 +193,33 @@ Devices:
 
 - iPhone 15 Pro (2023)
 - iPhone 15 Pro Max (2023)
+
+### [M3](https://en.wikipedia.org/wiki/Apple_M3)
+
+The M3 appears to use the 16-core Neural Engine from the A15 Bionic, performing up to 15.8 trillion operations per second.
+
+Devices:
+
+- MacBook Pro 14-inch (late 2023)
+- iMac 24-inch (2023)
+
+### [M3 Pro](https://en.wikipedia.org/wiki/Apple_M3#M3_Pro)
+
+The M3 Pro uses the same 16-core Neural Engine from the M3, performing up to 15.8 trillion operations per second.
+
+Devices:
+
+- MacBook Pro 14-inch (late 2023)
+- MacBook Pro 16-inch (late 2023)
+
+### [M3 Max](https://en.wikipedia.org/wiki/Apple_M3#M3_Max)
+
+The M3 Max uses the same 16-core Neural Engine from the M3, performing up to 15.8 trillion operations per second.
+
+Devices:
+
+- MacBook Pro 14-inch (late 2023)
+- MacBook Pro 16-inch (late 2023)
 
 ### [S4](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S4)
 The S4 SiP has a 2-core Neural Engine, is the first SiP with a Neural Engine on Apple Watch, and is based on the A12 Bionic's Neural Engine. It supports Core ML in watchOS 6 to enable faster processing of on-device inputs.
