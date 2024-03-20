@@ -144,6 +144,7 @@ Devices:
 - iPad Pro 11-inch (4th gen, 2022)
 - iPad Pro 12.9-inch (6th gen, 2022)
 - Mac mini (2023)
+- MacBook Air 15-inch (2023)
 - Apple Vision Pro (2024)
 
 ### [M2 Pro](https://en.wikipedia.org/wiki/Apple_M2#Variants)
