@@ -139,7 +139,7 @@ The M2 appears to use the 16-core Neural Engine from the A15 Bionic, performing 
 
 Devices:
 
-- MacBook Air (2022)
+- MacBook Air 13-inch (2022)
 - MacBook Pro 13-inch with two Thunderbolt 3 ports (2022)
 - iPad Pro 11-inch (4th gen, 2022)
 - iPad Pro 12.9-inch (6th gen, 2022)
@@ -203,6 +203,8 @@ Devices:
 
 - MacBook Pro 14-inch (late 2023)
 - iMac 24-inch (2023)
+- MacBook Air 13-inch (2024)
+- MacBook Air 15-inch (2024)
 
 ### [M3 Pro](https://en.wikipedia.org/wiki/Apple_M3#M3_Pro)
 
