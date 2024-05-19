@@ -139,7 +139,7 @@ The M2 appears to use the 16-core Neural Engine from the A15 Bionic, performing 
 
 Devices:
 
-- MacBook Air (2022)
+- MacBook Air 13-inch (2022)
 - MacBook Pro 13-inch with two Thunderbolt 3 ports (2022)
 - iPad Pro 11-inch (4th gen, 2022)
 - iPad Pro 12.9-inch (6th gen, 2022)
@@ -156,6 +156,8 @@ Devices:
 - MacBook Pro 14-inch (2023)
 - MacBook Pro 16-inch (2023)
 - Mac mini (2023)
+- iPad Air 11-inch (2024)
+- iPad Air 13-inch (2024)
 
 ### [M2 Max](https://en.wikipedia.org/wiki/Apple_M2#Variants)
 
@@ -203,6 +205,8 @@ Devices:
 
 - MacBook Pro 14-inch (late 2023)
 - iMac 24-inch (2023)
+- MacBook Air 13-inch (2024)
+- MacBook Air 15-inch (2024)
 
 ### [M3 Pro](https://en.wikipedia.org/wiki/Apple_M3#M3_Pro)
 
@@ -221,6 +225,15 @@ Devices:
 
 - MacBook Pro 14-inch (late 2023)
 - MacBook Pro 16-inch (late 2023)
+
+### [M4](https://en.wikipedia.org/wiki/Apple_M4)
+
+The M4 uses a 16-core Neural Engine, performing up to 38 trillion operations per second. 
+
+Devices:
+
+- iPad Pro 11-inch (2024)
+- iPad Pro 13-inch (2024)
 
 ### [S4](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S4)
 The S4 SiP has a 2-core Neural Engine, is the first SiP with a Neural Engine on Apple Watch, and is based on the A12 Bionic's Neural Engine. It supports Core ML in watchOS 6 to enable faster processing of on-device inputs.
