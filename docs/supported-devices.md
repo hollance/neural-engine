@@ -156,6 +156,8 @@ Devices:
 - MacBook Pro 14-inch (2023)
 - MacBook Pro 16-inch (2023)
 - Mac mini (2023)
+- iPad Air 11-inch (2024)
+- iPad Air 13-inch (2024)
 
 ### [M2 Max](https://en.wikipedia.org/wiki/Apple_M2#Variants)
 
@@ -223,6 +225,15 @@ Devices:
 
 - MacBook Pro 14-inch (late 2023)
 - MacBook Pro 16-inch (late 2023)
+
+### [M4](https://en.wikipedia.org/wiki/Apple_M4)
+
+The M4 uses a 16-core Neural Engine, performing up to 38 trillion operations per second. 
+
+Devices:
+
+- iPad Pro 11-inch (2024)
+- iPad Pro 13-inch (2024)
 
 ### [S4](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S4)
 The S4 SiP has a 2-core Neural Engine, is the first SiP with a Neural Engine on Apple Watch, and is based on the A12 Bionic's Neural Engine. It supports Core ML in watchOS 6 to enable faster processing of on-device inputs.
