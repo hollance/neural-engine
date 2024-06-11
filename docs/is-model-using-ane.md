@@ -80,3 +80,15 @@ Find the symbol `-[MLNeuralNetworkEngine predictionFromFeatures:...]`. Right-cli
 Now you'll see all the functions that are being called during the execution of the model, and how much time they relatively take up. The names of these functions will give good clues as to where the model is being executed, and you can use them as breakpoints as well.
 
 When using the ANE, there is also a call to `-[_ANEClient evaluateWithModel...]`. This appears to measure the time it takes to run the model on the ANE.
+
+
+## Use `powermetrics`
+
+While your app is running on a MacOS machine, type in terminal `sudo powermetrics` and it will tell you, among other things, the power consumption for each type of processing unit, e.g.:
+
+```
+CPU Power: 335 mW
+GPU Power: 37 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 372 mW
+```
