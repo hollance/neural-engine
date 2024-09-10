@@ -235,7 +235,26 @@ Devices:
 - iPad Pro 11-inch (2024)
 - iPad Pro 13-inch (2024)
 
+### [A18](https://en.wikipedia.org/wiki/Apple_A18)
+
+WIP
+
+Devices:
+
+- iPhone 16 (2024)
+- iPhone 16 Plus (2024)
+
+### [A18 Pro](https://en.wikipedia.org/wiki/Apple_A18)
+
+WIP
+
+Devices:
+
+- iPhone 16 Pro (2024)
+- iPhone 16 Pro Max (2024)
+
 ### [S4](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S4)
+
 The S4 SiP has a 2-core Neural Engine, is the first SiP with a Neural Engine on Apple Watch, and is based on the A12 Bionic's Neural Engine. It supports Core ML in watchOS 6 to enable faster processing of on-device inputs.
 
 Devices:
@@ -243,6 +262,7 @@ Devices:
 - Apple Watch Series 4 (2018)
 
 ### [S5](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S5)
+
 The Neural Engine in S5 has a 2-core Neural Engine and is identical to the S4's Neural Engine.
 
 Devices:
@@ -252,6 +272,7 @@ Devices:
 - HomePod mini (2020)
 
 ### [S6](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S6)
+
 The S6 SiP has a faster 2-core Neural Engine based on the A13 Bionic.
 
 Devices:
@@ -259,6 +280,7 @@ Devices:
 - Apple Watch Series 6 (2020)
 
 ### [S7](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S7) 
+
 The S7 SiP has a 2-core Neural Engine and is identical to the S6's Neural Engine.
 
 Devices:
@@ -267,6 +289,7 @@ Devices:
 - HomePod (2nd gen, 2023)
 
 ### [S8](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S8)
+
 The S8 SiP has a 2-core Neural Engine and is identical to the S6's Neural Engine.
 
 Devices:
@@ -276,12 +299,21 @@ Devices:
 - Apple Watch Ultra (1st gen, 2022)
 
 ### [S9](https://en.wikipedia.org/wiki/Apple_silicon#Apple_S9)
+
 The S9 SiP has a 4-core Neural Engine. According to Apple, the Neural Engine of the S9 processes machine learning tasks up to two times faster.
 
 Devices:
 
 - Apple Watch Series 9 (2023)
 - Apple Watch Ultra 2 (2023)
+
+### [S10]
+
+WIP
+
+Devices:
+
+- Apple Watch Series 10 (2024)
 
 ## Recent devices without a Neural Engine
 
