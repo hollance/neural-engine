@@ -309,7 +309,7 @@ Devices:
 
 ### [S10](https://en.wikipedia.org/wiki/Apple_silicon#Apple_S10)
 
-WIP
+The S10 appears to be identical to the S9, also containing a 4-core Neural Engine.
 
 Devices:
 
