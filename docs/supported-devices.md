@@ -307,7 +307,7 @@ Devices:
 - Apple Watch Series 9 (2023)
 - Apple Watch Ultra 2 (2023)
 
-### [S10]
+### [S10](https://en.wikipedia.org/wiki/Apple_silicon#Apple_S10)
 
 WIP
 
