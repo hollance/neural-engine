@@ -237,7 +237,7 @@ Devices:
 
 ### [A18](https://en.wikipedia.org/wiki/Apple_A18)
 
-WIP
+The A18 has a 16-core Neural Engine and can perform up to 35 trillion operations per second, similar to its predecessor.
 
 Devices:
 
@@ -246,7 +246,7 @@ Devices:
 
 ### [A18 Pro](https://en.wikipedia.org/wiki/Apple_A18)
 
-WIP
+Like the A18, the A18 Pro has a 16-core Neural Engine, the same amount of cores as the A17 Pro.
 
 Devices:
 
