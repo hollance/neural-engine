@@ -10,3 +10,9 @@ Recordings of the live streams where he's figuring how the ANE works:
 - https://www.youtube.com/watch?v=JAyw7OAcXDE
 - https://www.youtube.com/watch?v=Cb2KwcnDKrk
 - https://www.youtube.com/watch?v=9LzJ3h9iKEA
+
+There are some interesting Python libraries to interface with the ANE
+
+- ANE compiler: https://pypi.org/project/anecc/
+- ANE converter: https://pypi.org/project/anect/
+- ANE driver interface: https://pypi.org/project/ane/
