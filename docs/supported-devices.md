@@ -177,6 +177,14 @@ Devices:
 - Mac Studio (2023)
 - Mac Pro (2023)
 
+### [A16](https://en.wikipedia.org/wiki/Apple_A16)
+
+The A16 has a 16-core Neural Engine.
+
+Devices:
+
+- iPad (11th gen, 2025)
+
 ### [A16 Bionic](https://en.wikipedia.org/wiki/Apple_A16)
 
 The A16 has a 16-core Neural Engine, the same amount of cores as its predecessor. However, it can perform up to 17 trillion operations per second (7% faster than the previous generation). 
@@ -207,6 +215,8 @@ Devices:
 - iMac 24-inch (2023)
 - MacBook Air 13-inch (2024)
 - MacBook Air 15-inch (2024)
+- iPad Air 11-inch (2025)
+- iPad Air 13-inch (2025)
 
 ### [M3 Pro](https://en.wikipedia.org/wiki/Apple_M3#M3_Pro)
 
@@ -226,6 +236,14 @@ Devices:
 - MacBook Pro 14-inch (late 2023)
 - MacBook Pro 16-inch (late 2023)
 
+### [M3 Ultra](https://en.wikipedia.org/wiki/Apple_M3#M3_Ultra)
+
+The M3 Ultra uses the a 32-core Neural Engine, performing up to 36 trillion operations per second.
+
+Devices:
+
+- Mac Studio (2025)
+
 ### [M4](https://en.wikipedia.org/wiki/Apple_M4)
 
 The M4 uses a 16-core Neural Engine, performing up to 38 trillion operations per second. 
@@ -234,6 +252,28 @@ Devices:
 
 - iPad Pro 11-inch (2024)
 - iPad Pro 13-inch (2024)
+- MacBook Air 13-inch (2025)
+- MacBook Air 15-inch (2025)
+
+### [M4 Pro](https://en.wikipedia.org/wiki/Apple_M4#M4_Pro)
+
+The M4 Pro uses the same 16-core Neural Engine from the M4, performing up to 38 trillion operations per second. 
+
+Devices:
+
+- Mac mini (2024)
+- MacBook Pro 14-inch (2024)
+- MacBook Pro 16-inch (2024)
+
+### [M4 Max](https://en.wikipedia.org/wiki/Apple_M4#M4_Max)
+
+The M4 Max uses the same 16-core Neural Engine from the M4, performing up to 38 trillion operations per second. 
+
+Devices:
+
+- MacBook Pro 14-inch (2024)
+- MacBook Pro 16-inch (2024)
+- Mac Studio (2025)
 
 ### [A18](https://en.wikipedia.org/wiki/Apple_A18)
 
