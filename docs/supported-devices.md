@@ -316,6 +316,7 @@ Devices:
 
 - iPhone 16 (2024)
 - iPhone 16 Plus (2024)
+- iPhone 16e (2025)
 
 ### [A18 Pro](https://en.wikipedia.org/wiki/Apple_A18)
 
