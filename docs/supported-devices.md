@@ -254,6 +254,8 @@ Devices:
 - iPad Pro 13-inch (2024)
 - MacBook Air 13-inch (2025)
 - MacBook Air 15-inch (2025)
+- iPad Air 11-inch (2026)
+- iPad Air 13-inch (2026)
 
 ### [M4 Pro](https://en.wikipedia.org/wiki/Apple_M4#M4_Pro)
 
@@ -285,6 +287,26 @@ Devices:
 - iPad Pro 13-inch (2025)
 - MacBook Pro 14-inch (2025)
 - Apple Vision Pro (2025)
+- MacBook Air 13-inch (2026)
+- MacBook Air 15-inch (2026)
+
+### [M5 Pro](https://en.wikipedia.org/wiki/Apple_M5#M5_Pro)
+
+The M5 Pro has a 16-core Neural Engine. The new Fusion Architecture introduced with the M5 Pro and M5 Max allows for greater performance for the Neural Engine.
+
+Devices:
+
+- MacBook Pro 14-inch (2026)
+- MacBook Pro 16-inch (2026)
+
+### [M5 Max](https://en.wikipedia.org/wiki/Apple_M5#M5_Max)
+
+The M5 Max has a 16-core Neural Engine. The new Fusion Architecture introduced with the M5 Pro and M5 Max allows for greater performance for the Neural Engine. 
+
+Devices:
+
+- MacBook Pro 14-inch (2026)
+- MacBook Pro 16-inch (2026)
 
 ### [A18](https://en.wikipedia.org/wiki/Apple_A18)
 
@@ -294,6 +316,7 @@ Devices:
 
 - iPhone 16 (2024)
 - iPhone 16 Plus (2024)
+- iPhone 16e (2025)
 
 ### [A18 Pro](https://en.wikipedia.org/wiki/Apple_A18)
 
@@ -303,6 +326,7 @@ Devices:
 
 - iPhone 16 Pro (2024)
 - iPhone 16 Pro Max (2024)
+- MacBook Neo (2026)
 
 ### [A19](https://en.wikipedia.org/wiki/Apple_A19)
 
@@ -311,6 +335,7 @@ The A19 has a 16-core Neural Engine, with improved memory bandwidth compared to 
 Devices:
 
 - iPhone 17 (2025)
+- iPhone 17e (2026)
 
 ### [A19 Pro](https://en.wikipedia.org/wiki/Apple_A19)
 
