@@ -347,6 +347,16 @@ Devices:
 - iPhone 17 Pro (2025)
 - iPhone 17 Pro Max (2025)
 
+### [A20 Pro](https://en.wikipedia.org/wiki/Apple_A20_Pro)
+
+The A20 Pro uses a dual 16-core Neural Engine, for a total of 32 cores. The CPU and GPU also introduces Neural Accelerators.
+
+Devices:
+
+- iPhone Duo (2026)
+- iPhone 18 Pro (2026)
+- iPhone 18 Pro Max (2026)
+
 ### [S4](https://en.m.wikipedia.org/wiki/Apple_silicon#Apple_S4)
 
 The S4 SiP has a 2-core Neural Engine, is the first SiP with a Neural Engine on Apple Watch, and is based on the A12 Bionic's Neural Engine. It supports Core ML in watchOS 6 to enable faster processing of on-device inputs.
@@ -411,6 +421,15 @@ Devices:
 - Apple Watch Series 11 (2025)
 - Apple Watch SE (3rd gen, 2025)
 - Apple Watch Ultra 3 (2025)
+
+### [S11](https://en.wikipedia.org/wiki/Apple_silicon#Apple_S11)
+
+The S11 contains a 4-core Neural Engine.
+
+Devices:
+
+- Apple Watch Series 12 (2026)
+- Apple Watch Ultra 4 (2026)
 
 ## Recent devices without a Neural Engine
 
